@@ -1,0 +1,15 @@
+
+
+Nodejs Memory Management
+
+Code Segment
+Stack: The call stack helps us to keep track of where we are in the code so that we can run the code in order. Every time we run a function we use a call stack. Simple variables can be stored on the stack 
+Heap: heap is used to store functions, simple var & the complex data structures like object, array
+
+
+Stack overflow example
+
+function inception(){
+    inception()
+}
+inception()
